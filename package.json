@@ -1,5 +1,6 @@
 {
-  "name": "apikee-jwt-auth-example",
+  "name": "authenticator-demo",
+  "description": "Example Todolist API for @apikee/authenticator",
   "version": "1.0.0",
   "main": "index.ts",
   "repository": {
@@ -12,6 +13,7 @@
   "keywords": [],
   "author": "Jakub Tomáš",
   "dependencies": {
+    "@apikee/authenticator-mongostore": "^0.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
