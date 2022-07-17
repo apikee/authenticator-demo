@@ -1,7 +1,7 @@
 {
   "name": "authenticator-demo",
   "description": "Example Todolist API for @apikee/authenticator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "repository": {
     "type": "git",
@@ -10,9 +10,13 @@
   "scripts": {
     "dev": "npx nodemon src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "@apikee/authenticator",
+    "Demo API"
+  ],
   "author": "Jakub Tomáš",
   "dependencies": {
+    "@apikee/authenticator": "^0.0.1",
     "@apikee/authenticator-mongostore": "^0.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
